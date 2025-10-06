@@ -1,2 +1,48 @@
 # Lumé-
 Tugas Kelompok PBP F - F02
+- Naomyscha Attalie Maza
+- Nisrina Fatimah
+- Juma Jordan Bimo Simanjuntak
+- Raqilla Al-abrar
+- Ahmad Keenan Aryasatya Gamal
+
+Deskripsi aplikasi
+Lumé adalah sebuah aplikasi berbasis web yang menggabungkan pengalaman wellness dan commerce dalam satu platform. Terinspirasi dari gaya hidup sehat dan keseimbangan modern, Lumé dirancang sebagai studio pilates digital tempat pengguna dapat memesan kelas pilates dan membeli produk-produk pendukung gaya hidup sehat, seperti matras, botol minum, activewear, dan aksesoris pilates lainnya.
+Aplikasi ini memiliki sistem yang fleksibel—pengguna tidak diwajibkan untuk login. Tanpa login pun, pengguna dapat langsung menjelajahi produk, menambahkannya ke keranjang, dan melakukan pembelian. Saat checkout, pengguna hanya perlu mengisi data dasar seperti nama dan nomor telepon, lalu memilih metode pengambilan:
+- Ambil di studio: pengguna akan mendapatkan kode unik (pickup ID) untuk ditunjukkan saat pengambilan.
+- Kirim ke alamat: sistem otomatis menampilkan estimasi ongkir, dan pengguna diminta mengisi nama, nomor telepon, serta alamat pengiriman.
+
+Namun, pengguna yang membuat akun (login) akan mendapatkan pengalaman yang lebih personal:
+- Akses ke keranjang yang tersimpan secara permanen, sehingga mereka bisa melanjutkan belanja kapan pun.
+- Diskon membership 15% untuk transaksi pertama.
+- Fitur penyimpanan alamat dan kontak otomatis, seperti platform e-commerce besar pada umumnya.
+
+(Rencana pengembangan ke depan) Pemesan kelas pilates langsung dari studio, termasuk pilihan jadwal, instruktur, dan notifikasi pengingat.
+Dengan pendekatan ini, Lumé tidak hanya berfungsi sebagai tempat jual beli produk kesehatan, tetapi juga menjadi ekosistem gaya hidup sehat yang terintegrasi, mendukung pengguna dalam membangun rutinitas mindful dan seimbang. Ke depannya, Lumé dapat berkembang menjadi platform komunitas pilates yang menawarkan jadwal kelas, tracking progress, hingga fitur loyalty bagi pelanggan tetap.
+
+Daftar modul yang akan diimplementasikan
+
+
+Sumber initial dataset kategori utama produk
+
+
+Role atau peran pengguna beserta deskripsinya
+Pengunjung (Guest User)
+- Dapat menjelajahi produk tanpa loginDapat menambahkan produk ke keranjang sementara (tidak tersimpan)
+- Dapat melakukan pembelian dengan mengisi data nama & kontak saat checkout
+- Bisa memilih pengambilan produk di studio atau pengiriman ke alamat
+
+Pengguna Terdaftar (Member)
+- Login untuk mengakses keranjang pribadi yang tersimpan
+- Mendapat diskon 15% membership pada  transaksi pertama
+- Dapat menyimpan data pribadi (nama, nomor telepon, alamat)
+- (Future) Bisa memesan kelas pilates langsung melalui akun
+
+Admin (Studio Owner / Staff)
+- Mengelola produk (CRUD product)
+- Melihat dan memproses pesanan
+- Mengatur status pesanan (paid, shipped, picked up)
+- (Future) Mengatur jadwal kelas dan instruktur
+
+Link PWS : 
+Link figma : https://www.figma.com/files/team/1510143807974722636/project/465240058/Lum%C3%A9?fuid=1510143805779277091 
