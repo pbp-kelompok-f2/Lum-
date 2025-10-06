@@ -44,5 +44,5 @@ Admin (Studio Owner / Staff)
 - Mengatur status pesanan (paid, shipped, picked up)
 - (Future) Mengatur jadwal kelas dan instruktur
 
-Link PWS : 
+Link PWS : https://juma-jordan-lume.pbp.cs.ui.ac.id/
 Link figma : https://www.figma.com/files/team/1510143807974722636/project/465240058/Lum%C3%A9?fuid=1510143805779277091 
