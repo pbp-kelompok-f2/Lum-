@@ -29,7 +29,7 @@ Daftar modul yang akan diimplementasikan
 - Admin: Panel staff untuk CRUD produk dan memproses pesanan.
 
 Sumber initial dataset kategori utama produk
-
+Dataset didapatkan dari hasil scraping data dari www.merrithew.com dengan search pilates, https://www.pilates.com, align-pilates.com, staminaproducts.com, gratzpilates.com, decathlon.co.uk, decathlon.ca, decathlon.my, walmart.com, gaiam.com, dan ebay.com. 
 
 Role atau peran pengguna beserta deskripsinya
 Pengunjung (Guest User)
