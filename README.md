@@ -29,7 +29,16 @@ Daftar modul yang akan diimplementasikan
 - Admin: Panel staff untuk CRUD produk dan memproses pesanan.
 
 Sumber initial dataset kategori utama produk
-Dataset didapatkan dari hasil scraping data dari www.merrithew.com dengan search pilates, https://www.pilates.com, align-pilates.com, staminaproducts.com, gratzpilates.com, decathlon.co.uk, decathlon.ca, decathlon.my, walmart.com, gaiam.com, dan ebay.com. 
+Dataset didapatkan dari hasil scraping data dari www.merrithew.com dengan search pilates, https://www.pilates.com, align-pilates.com, staminaproducts.com, gratzpilates.com, decathlon.co.uk, decathlon.ca, decathlon.my, walmart.com, gaiam.com, dan ebay.com. Dataset yang digunakan berisikan beberapa variabel:
+- brand: merk atau manufaktur resmi produk
+- product_name: nama produk yang tampil ke user
+- category: kategori produk (midal mat, pilates ring, reformer, accessoty) untuk filter dan navigasi
+- variant: varian atau atribut pembeda dalam satu produk
+- key_specs: ringkasan fitur atau atribut
+- decription: kalau ingin markup terstruktur
+- source_url: URL halaman sumber tempat data diambil
+- image_url: URL gambar atau halaman yang menampilkan gambar utama produk
+- marketplace: tipe situs asal data
 
 Role atau peran pengguna beserta deskripsinya
 Pengunjung (Guest User)
