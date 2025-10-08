@@ -21,7 +21,12 @@ Namun, pengguna yang membuat akun (login) akan mendapatkan pengalaman yang lebih
 Dengan pendekatan ini, Lumé tidak hanya berfungsi sebagai tempat jual beli produk kesehatan, tetapi juga menjadi ekosistem gaya hidup sehat yang terintegrasi, mendukung pengguna dalam membangun rutinitas mindful dan seimbang. Ke depannya, Lumé dapat berkembang menjadi platform komunitas pilates yang menawarkan jadwal kelas, tracking progress, hingga fitur loyalty bagi pelanggan tetap.
 
 Daftar modul yang akan diimplementasikan
-
+- Catalog : Menampung data produk fisik (kategori, brand, produk, gambar). Menyediakan listing, detail, dan API filter/sort.
+- Cart : Menampung produk-produk yang disimpan jika ingin dibeli.
+- Checkout : Mengelola kalkulasi akhir (subtotal, diskon, ongkir).
+- Booking : Kelas pilates terpisah dari katalog, erdapat tipe kelas dan jadwal yang berbeda. Flow booking berdiri sendiri dan akan dihubungkan ke checkout.
+- User: Auth (login/register), alamat, lalu expose data profil/alamat untuk prefilling checkout.
+- Admin: Panel staff untuk CRUD produk dan memproses pesanan.
 
 Sumber initial dataset kategori utama produk
 
